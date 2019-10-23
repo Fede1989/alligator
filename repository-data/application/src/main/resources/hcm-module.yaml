@@ -1,0 +1,6 @@
+group:
+  name: alligator
+  after: hippo-cms
+project: alligator
+module:
+  name: alligator-repository-data-application

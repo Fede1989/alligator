@@ -1,0 +1,6 @@
+site: alligator
+group: alligator
+project: alligator
+module:
+  name: alligator-repository-data-site-development
+  after: alligator-repository-data-site

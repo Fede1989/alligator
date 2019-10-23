@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/alligator/hst:templates:
+      jcr:primaryType: hst:templates

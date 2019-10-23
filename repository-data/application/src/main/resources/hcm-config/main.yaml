@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    alligator:
+      uri: http://www.alligator.com/alligator/nt/1.0
+      cnd: namespaces/alligator.cnd
