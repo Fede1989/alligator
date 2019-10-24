@@ -2,3 +2,48 @@ definitions:
   config:
     /hst:hst/hst:configurations/alligator/hst:templates:
       jcr:primaryType: hst:templates
+      /base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/base-layout.ftl
+      /base-top-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/base-top-menu.ftl
+      /base-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/base-footer.ftl
+      /homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/homepage-main.ftl
+      /pagenotfound-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/pagenotfound-main.ftl
+      /newspage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/newspage-main.ftl
+      /search-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/search-main.ftl
+      /contentlist-main-contentlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /twocolumns-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/twocolumns-main.ftl
+      /newspage-relatednews:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/newspage-relatednews.ftl
+      /twocolumns-right-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/twocolumns-right-menu.ftl
+      /productslist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/productslist.ftl
+      /productpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/productpage-main.ftl
+      /featured-products:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/featured-products.ftl
+      /faceted-navigation:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/faceted-navigation.ftl

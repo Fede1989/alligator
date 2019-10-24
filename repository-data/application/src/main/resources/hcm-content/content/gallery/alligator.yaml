@@ -1,7 +1,7 @@
 /content/gallery/alligator:
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9e5f0c64-dc02-4f89-ba71-8a61e796e116
   hippo:name: Alligator
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
-
+  hippostd:foldertype: [new-alligator-setimmagini-folder]
+  hippostd:gallerytype: ['alligator:setimmagini']

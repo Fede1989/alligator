@@ -3,3 +3,4 @@ definitions:
     /hippo:namespaces/alligator:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7b0c86e6-dbba-43a3-9871-e7e0b3f5a30d

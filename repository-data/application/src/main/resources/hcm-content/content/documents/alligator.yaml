@@ -1,6 +1,8 @@
 /content/documents/alligator:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 1c2f9d03-0c3c-4df6-a821-0fccc4f1d112
   hippo:name: Alligator
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
