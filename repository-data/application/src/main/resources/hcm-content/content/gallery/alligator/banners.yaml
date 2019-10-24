@@ -1,0 +1,411 @@
+/content/gallery/alligator/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-alligator-setimmagini-folder]
+  hippostd:gallerytype: ['alligator:setimmagini']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+    /banner-1.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.561+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.640+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.718+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.786+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.859+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-1.jpg/banner-1.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T10:38:19.940+02:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+    /banner-2.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.378+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.417+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.455+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.483+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.512+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T10:38:20.550+02:00
+        jcr:mimeType: image/jpeg
+  /office.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f0ab5628-5099-4ca7-b837-9c32c2bc1246
+    /office.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: office.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/office.jpg/office.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:52.657+02:00
+        jcr:mimeType: image/jpeg
+  /study.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b51472fa-a729-4a20-9b8a-be5ae5064f64
+    /study.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: study.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: study.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/study.jpg/study.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:53.837+02:00
+        jcr:mimeType: image/jpeg
+  /thermostat2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f2e81435-7532-45b4-a19b-c41bf5909223
+    /thermostat2.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: thermostat2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: thermostat2.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/banners/thermostat2.jpg/thermostat2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T12:17:54.668+02:00
+        jcr:mimeType: image/jpeg

@@ -1,0 +1,6 @@
+/content/documents/alligator/newsfacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: ad5adb20-4751-425c-8a59-8b5720cf0d50
+  hippofacnav:facetnodenames: [Location, Author, Year]
+  hippofacnav:facets: ['alligator:location', 'alligator:author', 'alligator:date$year']
+  hippofacnav:filters: ['jcr:primaryType=alligator:newsdocument']

@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [24/Oct/2019:09:23:16 +0200] "GET /site/ HTTP/1.1" 200 10635
+0:0:0:0:0:0:0:1 - - [24/Oct/2019:09:23:16 +0200] "GET /site/binaries/content/gallery/alligator/banners/office.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Oct/2019:09:23:16 +0200] "GET /site/binaries/content/gallery/alligator/banners/study.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Oct/2019:09:23:16 +0200] "GET /site/binaries/content/gallery/alligator/banners/thermostat2.jpg HTTP/1.1" 304 -

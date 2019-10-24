@@ -1,0 +1,49 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:small:
+      .meta:order-before: alligator:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 224
+      upscaling: false
+      width: 491
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:large:
+      .meta:order-before: alligator:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 302
+      upscaling: false
+      width: 663
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:smallsquare:
+      .meta:order-before: alligator:mediumsquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 233
+      upscaling: false
+      width: 233
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:mediumsquare:
+      .meta:order-before: alligator:largesquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 313
+      upscaling: false
+      width: 313
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:largesquare:
+      .meta:order-before: alligator:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 663
+      upscaling: false
+      width: 663
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/alligator:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 1070
+      compression: 1.0
+      optimize: quality

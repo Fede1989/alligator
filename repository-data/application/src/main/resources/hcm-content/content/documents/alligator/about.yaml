@@ -1,0 +1,72 @@
+/content/documents/alligator/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f3fd2279-cd25-4890-abb5-44f0ad06cde6
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 8aacae4b-7b02-422b-8d9a-df4a70bb3dc0
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 39c28a18-2b86-4362-bce3-d5722329ef91
+    hippo:name: About
+    hippo:versionHistory: f95e42c2-3f70-4b92-aab3-d5abf84b3c22
+    /about[1]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 653a1d46-db17-4932-9eb9-4733c64bf5e3
+      alligator:introduction: CroccoStyle
+      alligator:publicationdate: 2019-10-23T12:37:00+02:00
+      alligator:title: About GoGreen 2.0
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:37:12.738+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:37:12.738+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ef3ca910-b7d1-441c-835d-c030c2f34119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>adesso ci metto i coccodrilli sul sito</p>
+    /about[2]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: c8bc2c41-8344-42bd-9876-b7201f7dfb21
+      alligator:introduction: CroccoStyle
+      alligator:publicationdate: 2019-10-23T12:37:00+02:00
+      alligator:title: About GoGreen 2.0
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:37:12.738+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:37:55.999+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ef3ca910-b7d1-441c-835d-c030c2f34119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>adesso ci metto i coccodrilli sul sito</p>
+    /about[3]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 075cb790-8b41-4317-ab8e-1c1bde3e55b1
+      alligator:introduction: CroccoStyle
+      alligator:publicationdate: 2019-10-23T12:37:00+02:00
+      alligator:title: About GoGreen 2.0
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:37:12.738+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:37:55.999+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T12:37:59.134+02:00
+      hippotranslation:id: ef3ca910-b7d1-441c-835d-c030c2f34119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>adesso ci metto i coccodrilli sul sito</p>

@@ -1,0 +1,412 @@
+/content/gallery/alligator/products:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 054c2f2a-48d9-4070-87ba-803e8aa797f8
+  hippostd:foldertype: [new-alligator-setimmagini-folder]
+  hippostd:gallerytype: ['alligator:setimmagini']
+  /alligatores.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: eac3ac85-fb7b-44b5-b6e1-7b9783488db8
+    /alligatores.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: alligatores.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: alligatores.jpg
+        hippogallery:height: 37
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 177
+        hippogallery:width: 285
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 144
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/alligatores.jpg/alligatores.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.495+02:00
+        jcr:mimeType: image/jpeg
+  /coccodrillo-3.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3a22072e-1cca-4d28-9263-96ac30bf46f1
+    hippo:name: coccodrillo 3.jpg
+    /coccodrillo-3.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: coccodrillo 3.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: coccodrillo 3.jpg
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 168
+        hippogallery:width: 299
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 130
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo-3.jpg/coccodrillo-3.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:18.868+02:00
+        jcr:mimeType: image/jpeg
+  /coccodrillo.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 65a5dae9-fa37-4078-b1b7-c7062cf5e9a5
+    /coccodrillo.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: coccodrillo.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: coccodrillo.jpg
+        hippogallery:height: 44
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 442
+        hippogallery:width: 593
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 405
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 335
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 442
+        hippogallery:width: 593
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 173
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo.jpg/coccodrillo.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.167+02:00
+        jcr:mimeType: image/jpeg
+  /coccodrillo2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1a7cfaca-0037-483c-96f2-d5b9ddb3a920
+    /coccodrillo2.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: coccodrillo2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: coccodrillo2.jpg
+        hippogallery:height: 45
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 298
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 402
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 234
+        hippogallery:width: 312
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 174
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/coccodrillo2.jpg/coccodrillo2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:19.777+02:00
+        jcr:mimeType: image/jpeg
+  /difference.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 789e4e1f-9bb9-4add-941e-639ffbf2608b
+    /difference.jpg:
+      jcr:primaryType: alligator:setimmagini
+      hippo:availability: [live, preview]
+      hippogallery:filename: difference.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: difference.jpg
+        hippogallery:height: 41
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 320
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/small/small.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 513
+        hippogallery:width: 735
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/original/original.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 432
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/large/large.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 358
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/banner/banner.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 462
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 218
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg
+      /alligator:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 162
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/alligator/products/difference.jpg/difference.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2019-10-23T15:38:20.527+02:00
+        jcr:mimeType: image/jpeg

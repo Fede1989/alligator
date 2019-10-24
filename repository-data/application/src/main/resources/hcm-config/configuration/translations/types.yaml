@@ -1,0 +1,110 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/alligator:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Content
+        alligator:image: Image
+        alligator:link: Link
+        alligator:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Inhoud
+        alligator:image: Afbeelding
+        alligator:link: Link
+        alligator:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Contenu
+        alligator:image: Image
+        alligator:link: Lien
+        alligator:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Inhalt
+        alligator:image: Abbildung
+        alligator:link: Link
+        alligator:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/alligator:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:author: Author
+        alligator:content: Content
+        alligator:date: Date
+        alligator:image: Image
+        alligator:introduction: Introduction
+        alligator:location: Location
+        alligator:source: Source
+        alligator:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:author: Auteur
+        alligator:content: Inhoud
+        alligator:date: Datum
+        alligator:image: Afbeelding
+        alligator:introduction: Introductie
+        alligator:location: Locatie
+        alligator:source: Bron
+        alligator:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:author: Verfasser
+        alligator:content: Inhalt
+        alligator:date: Datum
+        alligator:image: Abbildung
+        alligator:introduction: Einführung
+        alligator:location: Standort
+        alligator:source: Quelle
+        alligator:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:author: Auteur
+        alligator:content: Contenu
+        alligator:date: Date
+        alligator:image: Image
+        alligator:introduction: Introduction
+        alligator:location: Lieu
+        alligator:source: Source
+        alligator:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/alligator:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Content
+        alligator:introduction: Introduction
+        alligator:publicationdate: Publication date
+        alligator:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Inhoud
+        alligator:introduction: Introductie
+        alligator:publicationdate: Publicatiedatum
+        alligator:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Contenu
+        alligator:introduction: Introduction
+        alligator:publicationdate: Date de publication
+        alligator:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        alligator:content: Inhalt
+        alligator:introduction: Einführung
+        alligator:publicationdate: Publikationsdatum
+        alligator:title: Titel
+        jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/alligator:setimmagini:
+      jcr:primaryType: hipposys:resourcebundles

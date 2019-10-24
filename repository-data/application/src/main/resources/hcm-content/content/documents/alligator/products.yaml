@@ -1,0 +1,324 @@
+/content/documents/alligator/products:
+  .meta:order-before: newsfacets
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b8c5e074-84ef-4411-b8a3-7e56ca6d87e0
+  hippostd:foldertype: [new-product-folder, new-product-document]
+  hippotranslation:id: c0fe9746-3d6c-48aa-8f65-49bb9f8608f7
+  hippotranslation:locale: en
+  /crocodileone:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 8dd00fe1-d45d-4c93-9770-17453807b644
+    hippo:name: CrocodileOne
+    hippo:versionHistory: 662ac3e7-925b-459e-9680-0e26c8762b73
+    /crocodileone[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 22ee5c6b-d027-4cc6-95df-1a90f139b638
+      alligator:introduction: first product
+      alligator:price: 50.0
+      alligator:title: Crocodile One
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:40:48.413+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:47:05.709+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 22be47de-4607-4298-a6b6-7706d41c033a
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Big mouth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 65a5dae9-fa37-4078-b1b7-c7062cf5e9a5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodileone[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 316f89a9-594d-481d-9503-6cf7524cb03a
+      alligator:introduction: first product
+      alligator:price: 50.0
+      alligator:title: Crocodile One
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:40:48.413+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:47:11.897+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 22be47de-4607-4298-a6b6-7706d41c033a
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Big mouth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 65a5dae9-fa37-4078-b1b7-c7062cf5e9a5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodileone[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9c99d304-dc8a-4800-8dd7-ebec4025fe08
+      alligator:introduction: first product
+      alligator:price: 50.0
+      alligator:title: Crocodile One
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:40:48.413+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:47:11.897+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:47:20.999+02:00
+      hippotranslation:id: 22be47de-4607-4298-a6b6-7706d41c033a
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Big mouth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 65a5dae9-fa37-4078-b1b7-c7062cf5e9a5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /alligator-one:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2a497bba-f5ae-41cf-bad5-9b2f85371d2e
+    hippo:name: AlligatorOne
+    hippo:versionHistory: 6d48b7af-b7ca-459e-8f83-0bc0e0a7c52f
+    /alligator-one[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d49e0ab2-1f3b-4eaa-b156-eb70c971a269
+      alligator:introduction: Alligator
+      alligator:price: 100.0
+      alligator:title: AlligatorOne
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:41:50.080+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:43:01.426+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4c2af3d0-99fd-44e7-950c-c71b2c48acd0
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>it plays golf too!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eac3ac85-fb7b-44b5-b6e1-7b9783488db8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /alligator-one[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8f4d9d4e-4ab5-4115-9827-7df90cbbc850
+      alligator:introduction: Alligator
+      alligator:price: 100.0
+      alligator:title: AlligatorOne
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:41:50.080+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:42:43.983+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4c2af3d0-99fd-44e7-950c-c71b2c48acd0
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>it plays golf too!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eac3ac85-fb7b-44b5-b6e1-7b9783488db8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /alligator-one[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1f22496b-fb96-452a-a51a-5abac027994a
+      alligator:introduction: Alligator
+      alligator:price: 100.0
+      alligator:title: AlligatorOne
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:41:50.080+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:42:43.983+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:44:42.027+02:00
+      hippotranslation:id: 4c2af3d0-99fd-44e7-950c-c71b2c48acd0
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>it plays golf too!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eac3ac85-fb7b-44b5-b6e1-7b9783488db8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /crocodiletwo:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 9ca2b371-f39b-480b-b593-c089c782462e
+    hippo:name: CrocodileTwo
+    hippo:versionHistory: c21dc8de-d0eb-47bc-88c9-23309c710df6
+    /crocodiletwo[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0ad5f2ab-05f9-4c93-8502-a48f7eb4b29c
+      alligator:introduction: Crocodile Two
+      alligator:price: 75.0
+      alligator:title: Crocodile Two
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:42:57.414+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:46:42.004+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 90def57b-0a90-4be6-bd4f-cc13e4cad3a4
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Dark green Crocodile model</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 1a7cfaca-0037-483c-96f2-d5b9ddb3a920
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodiletwo[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5f3a39ff-11e7-4d31-bade-26416ba3c9fa
+      alligator:introduction: Crocodile Two
+      alligator:price: 75.0
+      alligator:title: Crocodile Two
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:42:57.414+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:46:50.212+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 90def57b-0a90-4be6-bd4f-cc13e4cad3a4
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Dark green Crocodile model</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 1a7cfaca-0037-483c-96f2-d5b9ddb3a920
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodiletwo[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f8b0c34f-1a46-4b9d-bcdc-f46bd1817143
+      alligator:introduction: Crocodile Two
+      alligator:price: 75.0
+      alligator:title: Crocodile Two
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:42:57.414+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:46:50.212+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:46:52.887+02:00
+      hippotranslation:id: 90def57b-0a90-4be6-bd4f-cc13e4cad3a4
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Dark green Crocodile model</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 1a7cfaca-0037-483c-96f2-d5b9ddb3a920
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /crocodilethree:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a3c16ba8-cf89-4f28-86a6-bc8e466ba592
+    hippo:name: CrocodileThree
+    hippo:versionHistory: ccd98eb9-a051-4c0a-bfca-35d258d6211c
+    /crocodilethree[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7de352bc-9817-4737-bc76-6b61b21d337a
+      alligator:introduction: Crocodile Three
+      alligator:price: 150.0
+      alligator:title: Crocodile Three
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:44:53.934+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:44:53.934+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d024d37f-9afe-4956-ab38-bbccd9ed96ae
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sooo nice!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3a22072e-1cca-4d28-9263-96ac30bf46f1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilethree[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: c6aa4ba8-0189-489a-a5b3-9136c179b15d
+      alligator:introduction: Crocodile Three
+      alligator:price: 150.0
+      alligator:title: Crocodile Three
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:44:53.934+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:45:58.799+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d024d37f-9afe-4956-ab38-bbccd9ed96ae
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sooo nice!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3a22072e-1cca-4d28-9263-96ac30bf46f1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilethree[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ef54e636-30e2-4826-a564-f24fd26ece9e
+      alligator:introduction: Crocodile Three
+      alligator:price: 150.0
+      alligator:title: Crocodile Three
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:44:53.934+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:45:58.799+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:46:17.153+02:00
+      hippotranslation:id: d024d37f-9afe-4956-ab38-bbccd9ed96ae
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sooo nice!</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3a22072e-1cca-4d28-9263-96ac30bf46f1
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

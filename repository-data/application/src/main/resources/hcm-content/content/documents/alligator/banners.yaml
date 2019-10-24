@@ -1,0 +1,332 @@
+/content/documents/alligator/banners:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: c49b40f9-32b2-4a02-9d5f-4e7d41f94704
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 51c05e1e-9117-401f-a53d-8c8c87e8e0c1
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    /banner1:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 68fb4aac-8d53-4558-9cfd-3c082585bd9c
+      alligator:title: Sample banner
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 64a6d159-fb0b-4815-95c1-eeccb68b0baf
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8a40b693-c5b0-431a-936f-157cf64a83eb
+      alligator:title: Sample banner 2
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 02bcc1f1-ca52-4138-9ab0-20f6bbe54a44
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /first-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1f2454ca-14b2-4a6f-81df-52a1e2a80d00
+    hippo:name: First Banner
+    hippo:versionHistory: 401ac123-cb9e-4729-9820-f0af464b578a
+    /first-banner[1]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0cb7f780-a259-4f3e-8157-1c8153ccd5c1
+      alligator:title: First Banner
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:18:26.960+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:24:10.909+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c65e9cbf-81e0-4283-b0bc-11eb3c497966
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the first banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f0ab5628-5099-4ca7-b837-9c32c2bc1246
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /first-banner[2]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 0d36e872-4e39-4912-9bfa-cb936c4b28ac
+      alligator:title: First Banner
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:18:26.960+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:24:20.262+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c65e9cbf-81e0-4283-b0bc-11eb3c497966
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the first banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f0ab5628-5099-4ca7-b837-9c32c2bc1246
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /first-banner[3]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 038d27f2-1929-42e1-8b7b-ee0af15b2f2e
+      alligator:title: First Banner
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:18:26.960+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:24:20.262+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T12:24:24.034+02:00
+      hippotranslation:id: c65e9cbf-81e0-4283-b0bc-11eb3c497966
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the first banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f0ab5628-5099-4ca7-b837-9c32c2bc1246
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+  /second-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b73cd83a-bb65-4513-8d07-f3e61fb0c744
+    hippo:name: Second Banner
+    hippo:versionHistory: a2b9194c-aed2-4f43-9608-86d57e014e38
+    /second-banner[1]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2c3bdd07-bfa0-4d0e-bb6e-22c926ddfdfb
+      alligator:title: Second Banner
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:19:38.629+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:19:38.629+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ec187bd4-7642-4848-ac34-7b4ffe213119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the second banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b51472fa-a729-4a20-9b8a-be5ae5064f64
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /second-banner[2]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: cceac3c0-0334-4e99-9a0a-97592f6f13d1
+      alligator:title: Second Banner
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:19:38.629+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:20:03.765+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ec187bd4-7642-4848-ac34-7b4ffe213119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the second banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b51472fa-a729-4a20-9b8a-be5ae5064f64
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /second-banner[3]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 567320eb-1930-439c-8bf9-ca3630b17b24
+      alligator:title: Second Banner
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:19:38.629+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:20:03.765+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T12:20:06.019+02:00
+      hippotranslation:id: ec187bd4-7642-4848-ac34-7b4ffe213119
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the second banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b51472fa-a729-4a20-9b8a-be5ae5064f64
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+  /third-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 9657a28b-a8b2-4908-bc68-1f859ad09810
+    hippo:name: Third Banner
+    hippo:versionHistory: b396f23d-a857-4760-b4c1-47b51280e156
+    /third-banner[1]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e6d1e6a3-e594-45ee-929f-8d2d50759ec4
+      alligator:title: Third Banner
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:20:14.443+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:20:14.444+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e32e6fe4-3028-4c64-92d9-80781833d09b
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the third banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f2e81435-7532-45b4-a19b-c41bf5909223
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /third-banner[2]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 30c79ded-4ba5-4292-b169-3c594e0092ff
+      alligator:title: Third Banner
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:20:14.443+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:20:42.339+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e32e6fe4-3028-4c64-92d9-80781833d09b
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the third banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f2e81435-7532-45b4-a19b-c41bf5909223
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /third-banner[3]:
+      jcr:primaryType: alligator:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e789932e-3ded-43cd-afa5-cee70b0d7e8b
+      alligator:title: Third Banner
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T12:20:14.443+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T12:20:42.339+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T12:20:44.408+02:00
+      hippotranslation:id: e32e6fe4-3028-4c64-92d9-80781833d09b
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is the third banner</p>
+      /alligator:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f2e81435-7532-45b4-a19b-c41bf5909223
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /alligator:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8

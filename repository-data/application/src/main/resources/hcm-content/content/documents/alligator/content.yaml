@@ -1,0 +1,220 @@
+/content/documents/alligator/content:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 4d7ff66b-30c2-496a-ab3e-a287beb6e9e6
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 26b60721-39c2-4cb8-8f2e-dee6551cd8b7
+  hippotranslation:locale: en
+  /sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 64ab4648-0c20-40d2-9f18-d7a394f0334b
+    hippo:name: Sample document
+    /sample-document:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 378313ca-9353-445c-951e-c8cdf6adff56
+      alligator:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      alligator:publicationdate: 2014-03-25T16:52:00+01:00
+      alligator:title: Lorem
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
+      hippotranslation:id: d63049f7-3281-4cd7-8682-2a431504a02c
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /another-sample-document:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9caea793-42b1-4f3e-a8e5-d58f810ce2ef
+    hippo:name: Another sample document
+    /another-sample-document:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 74e15f89-e527-4ba8-932a-e808ad122383
+      alligator:introduction: Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.
+      alligator:publicationdate: 2014-03-25T16:52:00+01:00
+      alligator:title: Another Lorem
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-25T16:52:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
+      hippotranslation:id: 22a2b40e-f0d7-4851-8fae-97606efc54ea
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                      <body>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                      roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                      years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                      Lorem Ipsum passage, and going through the cites of the word in classical
+                      literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                      Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                      ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                      </body>
+                      </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6b12b008-ce93-470a-a188-c9fbf29aefe6
+    hippo:name: Quick Facts
+    hippo:versionHistory: 10008786-4975-4eb7-8010-99d8bee5f65d
+    /quick-facts[1]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b71bc691-4f3e-4134-8693-cd75fc7972c3
+      alligator:introduction: Green Crocco
+      alligator:publicationdate: 2019-10-23T15:23:00+02:00
+      alligator:title: Quick Facts
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:22:52.594+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:22:52.594+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ea381c02-00a8-47ab-b2c3-4fe6019594c3
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Croccodile&nbsp;</p>
+    /quick-facts[2]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 7d6d491d-e1d0-4ac7-9d78-d70ffeaebdba
+      alligator:introduction: Green Crocco
+      alligator:publicationdate: 2019-10-23T15:23:00+02:00
+      alligator:title: Quick Facts
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:22:52.594+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:23:38.320+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ea381c02-00a8-47ab-b2c3-4fe6019594c3
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Croccodile&nbsp;</p>
+    /quick-facts[3]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 80819177-83cd-4d0b-9321-ac8c1db99323
+      alligator:introduction: Green Crocco
+      alligator:publicationdate: 2019-10-23T15:23:00+02:00
+      alligator:title: Quick Facts
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:22:52.594+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:23:38.320+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:23:43.827+02:00
+      hippotranslation:id: ea381c02-00a8-47ab-b2c3-4fe6019594c3
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Croccodile&nbsp;</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: c4aef370-0f8d-43f8-b138-39aee0a1d8b8
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: 5830d127-f0e2-4bd6-aed8-ce7a0f868e66
+    /terms--conditions[1]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 90b23abc-4da7-44d0-90d2-91382aba8b74
+      alligator:introduction: Alligator vs Croccodile
+      alligator:publicationdate: 2019-10-23T15:24:00+02:00
+      alligator:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:23:52.873+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:23:52.873+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c35bfa77-1a96-41c4-9b57-dbad38679758
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>e so' coccodrilli</p>
+    /terms--conditions[2]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bfab50b0-c999-48d5-915c-d300c5ba071e
+      alligator:introduction: Alligator vs Croccodile
+      alligator:publicationdate: 2019-10-23T15:24:00+02:00
+      alligator:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:23:52.873+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:24:19.862+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c35bfa77-1a96-41c4-9b57-dbad38679758
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>e so' coccodrilli</p>
+    /terms--conditions[3]:
+      jcr:primaryType: alligator:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e9123af0-0d6f-4f27-acb0-c8b94a4b3a07
+      alligator:introduction: Alligator vs Croccodile
+      alligator:publicationdate: 2019-10-23T15:24:00+02:00
+      alligator:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-23T15:23:52.873+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-23T15:24:19.862+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-23T15:24:22.408+02:00
+      hippotranslation:id: c35bfa77-1a96-41c4-9b57-dbad38679758
+      hippotranslation:locale: en
+      /alligator:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>e so' coccodrilli</p>
