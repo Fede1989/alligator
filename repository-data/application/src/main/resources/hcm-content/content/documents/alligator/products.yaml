@@ -322,3 +322,161 @@
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
+  /crocodilefour:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b7a2939b-8202-4bb3-b8ca-2e428ea1bc43
+    hippo:name: CrocodileFour
+    hippo:versionHistory: 9e505d67-a764-4401-9d32-4f0ad8566971
+    /crocodilefour[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 58705e48-88bf-4fa0-93d9-6f48fadca118
+      alligator:introduction: crocodile teeth
+      alligator:price: 100.0
+      alligator:title: Croccodile Four
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:01:30.136+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:01:30.137+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3c51faf-496e-4d26-b433-55d791a1fed6
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sharp and white teeth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 09411f6b-9666-4a29-8948-b07549e95ae4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilefour[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: f46299ef-1414-414f-9b58-44bf40df146c
+      alligator:introduction: crocodile teeth
+      alligator:price: 100.0
+      alligator:title: Croccodile Four
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:01:30.136+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:03:36.077+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3c51faf-496e-4d26-b433-55d791a1fed6
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sharp and white teeth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 09411f6b-9666-4a29-8948-b07549e95ae4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilefour[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ba0efd74-505b-4ee4-98bd-7087cc9a1a77
+      alligator:introduction: crocodile teeth
+      alligator:price: 100.0
+      alligator:title: Croccodile Four
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:01:30.136+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:03:36.077+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-24T12:03:41.959+02:00
+      hippotranslation:id: a3c51faf-496e-4d26-b433-55d791a1fed6
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sharp and white teeth</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 09411f6b-9666-4a29-8948-b07549e95ae4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /crocodilefive:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2fcb97d0-ee3d-47b7-a83e-75a68242fbba
+    hippo:name: CrocodileFive
+    hippo:versionHistory: 979000ff-9506-452e-a25b-49f0223a7e56
+    /crocodilefive[1]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 46372995-8b8f-458c-95e2-4f695d6932cc
+      alligator:introduction: sooo sweety
+      alligator:price: 75.0
+      alligator:title: Crocodile Five
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:03:53.015+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:03:53.015+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e8eaffd4-9927-4345-b632-3fd5b57f1522
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>nice and cheap&nbsp;</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 68602f6f-c92e-4a83-821e-d6bb8641c6d2
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilefive[2]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 06fe84c3-dbfa-4792-93e9-9b320f64a0d7
+      alligator:introduction: sooo sweety
+      alligator:price: 75.0
+      alligator:title: Crocodile Five
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:03:53.015+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:04:30.920+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e8eaffd4-9927-4345-b632-3fd5b57f1522
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>nice and cheap&nbsp;</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 68602f6f-c92e-4a83-821e-d6bb8641c6d2
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /crocodilefive[3]:
+      jcr:primaryType: alligator:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9619274f-0c73-4cbb-8dcf-56e79883a50b
+      alligator:introduction: sooo sweety
+      alligator:price: 75.0
+      alligator:title: Crocodile Five
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-10-24T12:03:53.015+02:00
+      hippostdpubwf:lastModificationDate: 2019-10-24T12:04:30.920+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-10-24T12:04:32.876+02:00
+      hippotranslation:id: e8eaffd4-9927-4345-b632-3fd5b57f1522
+      hippotranslation:locale: en
+      /alligator:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>nice and cheap&nbsp;</p>
+      /alligator:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 68602f6f-c92e-4a83-821e-d6bb8641c6d2
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

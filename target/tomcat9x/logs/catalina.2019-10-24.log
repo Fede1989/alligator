@@ -1,112 +1,24 @@
-24-Oct-2019 09:23:15.433 SEVERE [http-nio-8080-exec-6] freemarker.log._JULLoggerFactory$JULLogger.error Parsing error with template "webfile:/freemarker/alligator/featured-products.ftl".
-	freemarker.core.ParseException: Syntax error in template "webfile:/freemarker/alligator/featured-products.ftl" in line 14, column 47:
-Lexical error: encountered "\u00a0" (160), after "".
-		at freemarker.core.TokenMgrError.toParseException(TokenMgrError.java:260)
-		at freemarker.template.Template.<init>(Template.java:269)
-		at freemarker.cache.TemplateCache.loadTemplate(TemplateCache.java:549)
-		at freemarker.cache.TemplateCache.getTemplateInternal(TemplateCache.java:439)
-		at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:292)
-		at freemarker.template.Configuration.getTemplate(Configuration.java:2750)
-		at freemarker.template.Configuration.getTemplate(Configuration.java:2608)
-		at freemarker.ext.servlet.FreemarkerServlet.process(FreemarkerServlet.java:805)
-		at freemarker.ext.servlet.FreemarkerServlet.doGet(FreemarkerServlet.java:764)
-		at org.hippoecm.hst.servlet.HstFreemarkerServlet.doGet(HstFreemarkerServlet.java:148)
-		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
-		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
-		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
-		at org.hippoecm.hst.core.container.HstComponentInvokerImpl.invokeDispatcher(HstComponentInvokerImpl.java:395)
-		at org.hippoecm.hst.core.container.HstComponentInvokerImpl.invokeRender(HstComponentInvokerImpl.java:221)
-		at sun.reflect.GeneratedMethodAccessor212.invoke(Unknown Source)
-		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-		at java.lang.reflect.Method.invoke(Method.java:497)
-		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
-		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-		at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
-		at org.hippoecm.hst.core.logging.HstComponentInvokerProfiler.profile(HstComponentInvokerProfiler.java:60)
-		at sun.reflect.GeneratedMethodAccessor202.invoke(Unknown Source)
-		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-		at java.lang.reflect.Method.invoke(Method.java:497)
-		at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
-		at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
-		at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
-		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-		at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
-		at org.hippoecm.hst.core.container.PersistableSessionAroundAdvice.invoke(PersistableSessionAroundAdvice.java:68)
-		at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source)
-		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-		at java.lang.reflect.Method.invoke(Method.java:497)
-		at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
-		at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
-		at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
-		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-		at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
-		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-		at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
-		at com.sun.proxy.$Proxy122.invokeRender(Unknown Source)
-		at org.hippoecm.hst.core.container.AggregationValve.processWindowsRender(AggregationValve.java:454)
-		at org.hippoecm.hst.core.container.AggregationValve.invoke(AggregationValve.java:257)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.ComponentRenderingValve.invoke(ComponentRenderingValve.java:34)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.PageCachingValve.invoke(PageCachingValve.java:62)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.ESIPageInfoScanningValve.invoke(ESIPageInfoScanningValve.java:80)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.PageInfoRenderingValve.invoke(PageInfoRenderingValve.java:50)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.ResourceServingValve.invoke(ResourceServingValve.java:40)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.ActionValve.invoke(ActionValve.java:47)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.LocalizationValve.invoke(LocalizationValve.java:101)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.ContextResolvingValve.invoke(ContextResolvingValve.java:115)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.JCRSessionStatefulConcurrencyValve.invoke(JCRSessionStatefulConcurrencyValve.java:56)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.SubjectBasedSessionValve.invoke(SubjectBasedSessionValve.java:58)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.SecurityValve.invoke(SecurityValve.java:177)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.CmsSecurityValve.invoke(CmsSecurityValve.java:60)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.InitializationValve.invoke(InitializationValve.java:37)
-		at org.hippoecm.hst.core.container.HstSitePipeline$Invocation.invokeNext(HstSitePipeline.java:288)
-		at org.hippoecm.hst.core.container.HstSitePipeline.invokeValves(HstSitePipeline.java:173)
-		at org.hippoecm.hst.core.container.HstSitePipeline.invoke(HstSitePipeline.java:155)
-		at org.hippoecm.hst.core.container.HstRequestProcessorImpl.processRequest(HstRequestProcessorImpl.java:81)
-		at org.hippoecm.hst.container.HstDelegateeFilterBean.processResolvedSiteMapItem(HstDelegateeFilterBean.java:809)
-		at org.hippoecm.hst.container.HstDelegateeFilterBean.doFilter(HstDelegateeFilterBean.java:450)
-		at org.hippoecm.hst.container.DelegatingFilter.doFilter(DelegatingFilter.java:68)
-		at org.hippoecm.hst.container.HstFilter.doFilter(HstFilter.java:51)
-		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-		at org.hippoecm.hst.container.XSSUrlFilter.doFilter(XSSUrlFilter.java:51)
-		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
-		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
-		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1839)
-		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-		at java.lang.Thread.run(Thread.java:745)
+24-Oct-2019 12:53:10.476 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Dell\Dell Data Protection\Access\Advanced\Wave\Gemalto\Access Client\v5\;C:\Program Files (x86)\Security Innovation\SI TSS\bin\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Projeny\Bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\FV\Maven\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;<JAVA_HOME>\bin;C:\FV\materiale\apache-maven-3.6.2\bin;.]
+24-Oct-2019 12:53:11.018 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 12:53:11.078 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 12:53:11.084 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [883] milliseconds
+24-Oct-2019 12:53:11.146 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 12:53:11.146 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+24-Oct-2019 12:53:11.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\conf\Catalina\localhost\site.xml]
+24-Oct-2019 12:53:19.105 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [269] milliseconds.
+24-Oct-2019 12:53:19.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\conf\Catalina\localhost\site.xml] has finished in [8,512] ms
+24-Oct-2019 12:53:19.675 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\cargocpc.war]
+24-Oct-2019 12:53:19.963 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\cargocpc.war] has finished in [288] ms
+24-Oct-2019 12:53:19.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\cms]
+24-Oct-2019 12:54:27.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\cms] has finished in [67,727] ms
+24-Oct-2019 12:54:27.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\essentials]
+24-Oct-2019 12:54:38.167 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /
+24-Oct-2019 12:54:38.728 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /system
+24-Oct-2019 12:54:38.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\essentials] has finished in [11,059] ms
+24-Oct-2019 12:54:38.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\host-manager]
+24-Oct-2019 12:54:38.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\host-manager] has finished in [90] ms
+24-Oct-2019 12:54:38.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\manager]
+24-Oct-2019 12:54:38.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\valente_federico\eclipse-workspace\alligator\target\tomcat9x\webapps\manager] has finished in [77] ms
+24-Oct-2019 12:54:38.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 12:54:38.940 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 12:54:38.945 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [87,853] milliseconds

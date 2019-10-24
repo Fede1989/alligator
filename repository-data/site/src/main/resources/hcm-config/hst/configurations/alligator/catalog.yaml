@@ -9,3 +9,8 @@ definitions:
           hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListPickerComponent
           hst:label: Featured Products
           hst:template: featured-products
+        /filtered-products:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: it.esempio.beans.components.FilteredProducts
+          hst:label: Filtered Products
+          hst:template: filtered-products
