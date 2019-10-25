@@ -5,5 +5,6 @@
   hst:parameternames: [document8, document7, document9, document4, document3, document6,
     document10, document5, pageSize, document2, showPagination, document1]
   hst:parametervalues: ['', '', '', products/crocodilethree, products/crocodiletwo,
-    '', '', '', '10', products/crocodileone, 'off', products/alligator-one]
+    products/crocodilefive, '', products/crocodilefour, '3', products/alligator-one,
+    'on', products/crocodileone]
   hst:template: featured-products

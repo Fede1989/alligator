@@ -1,0 +1,14 @@
+/hst:hst/hst:configurations/alligator/hst:workspace/hst:pages/filtered-contentpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2019-10-24T09:58:33.812+02:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-10-24T10:05:39.071+02:00
+    hst:xtype: hst.vbox
+    /filtered-products:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: it.esempio.beans.components.FilteredProducts
+      hst:label: Filtered Products
+      hst:template: filtered-products

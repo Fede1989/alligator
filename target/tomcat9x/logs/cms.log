@@ -1,12 +1,13 @@
-24.10.2019 12:53:34 WARN  main [RepositoryLock.acquire:134] Existing lock file C:\Users\valente_federico\eclipse-workspace\alligator\storage\.lock detected. Repository was not shut down properly.
-24.10.2019 12:53:59 WARN  main [ConfigurationContentService.warnForDuplicateOrderBefores:261] Following node(s) reference the same node multiple times in order-before:
+25.10.2019 09:41:43 WARN  main [RepositoryLock.acquire:134] Existing lock file C:\Users\valente_federico\eclipse-workspace\alligator\storage\.lock detected. Repository was not shut down properly.
+25.10.2019 09:42:13 WARN  main [ConfigurationContentService.warnForDuplicateOrderBefores:261] Following node(s) reference the same node multiple times in order-before:
     /content/documents/alligator/banners in core/alligator/alligator/alligator-repository-data-application [content: content/documents/alligator/banners.yaml], 
     /content/documents/alligator/content in core/alligator/alligator/alligator-repository-data-application [content: content/documents/alligator/content.yaml]
-24.10.2019 12:53:59 WARN  main [ConfigurationContentService.warnForDuplicateOrderBefores:261] Following node(s) reference the same node multiple times in order-before:
+25.10.2019 09:42:13 WARN  main [ConfigurationContentService.warnForDuplicateOrderBefores:261] Following node(s) reference the same node multiple times in order-before:
     /hst:alligator/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Home in alligator/alligator/alligator/alligator-repository-data-site [content: hst/configurations/alligator/workspace/sitemenus/main/Home.yaml], 
     /hst:alligator/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/News in alligator/alligator/alligator/alligator-repository-data-site [content: hst/configurations/alligator/workspace/sitemenus/main/News.yaml], 
-    /hst:alligator/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Products in alligator/alligator/alligator/alligator-repository-data-site [content: hst/configurations/alligator/workspace/sitemenus/main/Products.yaml]
-24.10.2019 12:54:08 ERROR main [LocalHippoRepository.start:325] 
+    /hst:alligator/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Products in alligator/alligator/alligator/alligator-repository-data-site [content: hst/configurations/alligator/workspace/sitemenus/main/Products.yaml], 
+    /hst:alligator/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Untitled in alligator/alligator/alligator/alligator-repository-data-site [content: hst/configurations/alligator/workspace/sitemenus/main/Untitled.yaml]
+25.10.2019 09:42:23 ERROR main [LocalHippoRepository.start:325] 
 
 	Insecure default administrator credentials are enabled! Change the password!
 

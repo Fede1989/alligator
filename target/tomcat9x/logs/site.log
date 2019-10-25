@@ -1,1 +1,1 @@
-24.10.2019 13:00:07 WARN  http-nio-8080-exec-3 [TemplateLoadingCache.getRepositoryTemplate:113] No jcr node or property found at '/webfiles/site/include/imports.ftl'. Cannot return freemarker template.
+25.10.2019 11:31:30 WARN  http-nio-8080-exec-9 [TemplateLoadingCache.getRepositoryTemplate:113] No jcr node or property found at '/webfiles/site/include/imports.ftl'. Cannot return freemarker template.

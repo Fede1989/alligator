@@ -7,5 +7,5 @@
     cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor, showNavigation,
     interval]
   hst:parametervalues: ['', banners/third-banner, '', '', banners/second-banner, banners/first-banner,
-    'on', 'on', '700', '250', '#FFFFFF', 'off', '3000']
+    'on', 'on', '700', '250', '#FFFFFF', 'on', '3000']
   hst:template: essentials-carousel

@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/alligator/hst:workspace/hst:sitemap/filtered:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/filtered-contentpage
+  hst:lastmodified: 2019-10-24T10:03:05.587+02:00
+  hst:pagetitle: Filtered

@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Filtered Products:
+  .meta:order-before: About
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: filtered
+  hst:repobased: false

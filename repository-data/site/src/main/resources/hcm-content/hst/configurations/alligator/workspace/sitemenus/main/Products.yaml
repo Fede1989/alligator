@@ -1,4 +1,4 @@
 /hst:hst/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Products:
-  .meta:order-before: About
+  .meta:order-before: Filtered Products
   jcr:primaryType: hst:sitemenuitem
   hst:referencesitemapitem: products
