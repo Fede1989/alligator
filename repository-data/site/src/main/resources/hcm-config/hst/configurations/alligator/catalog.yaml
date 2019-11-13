@@ -11,6 +11,11 @@ definitions:
           hst:template: featured-products
         /filtered-products:
           jcr:primaryType: hst:containeritemcomponent
-          hst:componentclassname: it.esempio.beans.components.FilteredProducts
+          hst:componentclassname: it.esempio.components.FilteredProducts
           hst:label: Filtered Products
           hst:template: filtered-products
+        /nasaday:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: it.esempio.components.NasaDayComponent
+          hst:label: Nasa Day
+          hst:template: nasadayimage

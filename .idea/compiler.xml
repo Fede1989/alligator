@@ -6,31 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alligator-repository-data-development" />
+        <module name="alligator-repository-data-site" />
         <module name="alligator-components" />
         <module name="alligator-cms" />
         <module name="alligator-webapp" />
         <module name="alligator-repository-data-site-development" />
         <module name="alligator-essentials" />
         <module name="alligator-repository-data-webfiles" />
-        <module name="alligator-repository-data-site" />
+        <module name="alligator-repository-data-development" />
         <module name="alligator-repository-data-application" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="alligator" target="1.5" />
-      <module name="alligator-cms" target="1.8" />
-      <module name="alligator-cms-dependencies" target="1.5" />
-      <module name="alligator-components" target="1.8" />
-      <module name="alligator-essentials" target="1.8" />
-      <module name="alligator-repository-data" target="1.5" />
-      <module name="alligator-repository-data-application" target="1.8" />
-      <module name="alligator-repository-data-development" target="1.8" />
-      <module name="alligator-repository-data-site" target="1.8" />
-      <module name="alligator-repository-data-site-development" target="1.8" />
-      <module name="alligator-repository-data-webfiles" target="1.8" />
-      <module name="alligator-site" target="1.5" />
-      <module name="alligator-webapp" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

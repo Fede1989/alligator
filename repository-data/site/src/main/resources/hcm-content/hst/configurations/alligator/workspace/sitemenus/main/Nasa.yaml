@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/alligator/hst:workspace/hst:sitemenus/main/Nasa:
+  .meta:order-before: About
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: nasa
+  hst:repobased: false

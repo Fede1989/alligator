@@ -4,7 +4,6 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import java.util.List;
-import it.esempio.beans.Setimmagini;
 
 @HippoEssentialsGenerated(internalName = "alligator:product")
 @Node(jcrType = "alligator:product")

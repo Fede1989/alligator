@@ -1,0 +1,4 @@
+13-Nov-2019 15:20:23.703 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Nov-2019 15:20:42.654 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Nov-2019 15:21:53.754 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Nov-2019 15:21:54.876 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext

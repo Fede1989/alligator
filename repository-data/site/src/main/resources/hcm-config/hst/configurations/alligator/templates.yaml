@@ -50,3 +50,6 @@ definitions:
       /filtered-products:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/alligator/filtered-products.ftl
+      /nasadayimage:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/alligator/nasadayimage.ftl

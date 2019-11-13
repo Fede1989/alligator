@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/alligator/hst:workspace/hst:sitemap/nasa:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/nasa-contentpage
+  hst:lastmodified: 2019-11-13T14:12:55.373+01:00
+  hst:pagetitle: Nasa

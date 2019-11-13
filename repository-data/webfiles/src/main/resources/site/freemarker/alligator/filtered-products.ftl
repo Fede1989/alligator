@@ -1,4 +1,4 @@
-<#include "../../include/imports.ftl">
+<#include "../include/imports.ftl">
 
 <h1>PRODOTTI FILTRATI:</h1>
 <ul>
